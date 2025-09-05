@@ -1,22 +1,24 @@
 {
   "expo": {
-    "name": "rn-demo-app",
-    "slug": "rn-demo-app",
+    "name": "aws-demo-app",
+    "slug": "aws-demo-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "rndemoapp",
+    "scheme": "awsdemoapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.feyyum.awsdemoapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.feyyum.awsdemoapp"
     },
     "web": {
       "bundler": "metro",
