@@ -1,9 +1,10 @@
 import { View, Text } from "react-native";
+import { SafeAreaView } from "@/components/native";
 
 export default function Login() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Login</Text>
-    </View>
+    </SafeAreaView>
   );
 }

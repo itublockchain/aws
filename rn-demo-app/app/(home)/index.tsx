@@ -1,9 +1,10 @@
-import { View, Text } from "react-native";
+import { Text } from "react-native";
+import { SafeAreaView } from "@/components/native";
 
 export default function Homepage() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Homepage</Text>
-    </View>
+    </SafeAreaView>
   );
 }

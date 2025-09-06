@@ -15,7 +15,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FCFCFC"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.feyyum.awsdemoapp"
@@ -33,7 +33,16 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#FCFCFC"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/InterVariable.ttf",
+            "./assets/fonts/InterVariable-Italic.ttf"
+          ]
         }
       ],
       "expo-web-browser",
