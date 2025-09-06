@@ -69,7 +69,7 @@ function GoogleAuthButton() {
         />
       ) : (
         <>
-          <Google />
+          {/* <Google /> */}
           <Text style={styles.texts}>Continue with Google</Text>
         </>
       )}
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   },
   texts: {
     fontSize: TextStyle.size.md,
-    fontWeight: TextStyle.weight.Black,
+    fontWeight: TextStyle.weight.SemiBold,
     color: Colors.LIGHT,
   },
   spinner: {

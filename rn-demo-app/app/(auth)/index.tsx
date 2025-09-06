@@ -1,10 +1,9 @@
 import { StyleSheet, View } from "react-native";
 import { Image } from "expo-image";
 
-import { SafeAreaView, Text } from "@/components/native";
+import { SafeAreaView } from "@/components/native";
 import GoogleAuthButton from "@/components/buttons/GoogleAuth";
 
-import { TextStyle } from "@/constants/Fonts";
 import { getWidth } from "@/constants/Spaces";
 
 export default function Login() {
