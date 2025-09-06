@@ -7,7 +7,7 @@ function Text(props: any) {
 
   // Apply default styles if not provided
   const defaultStyle = {
-    fontFamily: Fonts.TextStyle.family.inter,
+    fontFamily: Fonts.TextStyle.family.nunito,
     fontSize: Fonts.TextStyle.size.xs,
     color: Colors.BLACK,
   };

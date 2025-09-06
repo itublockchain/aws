@@ -41,7 +41,9 @@
         {
           "fonts": [
             "./assets/fonts/InterVariable.ttf",
-            "./assets/fonts/InterVariable-Italic.ttf"
+            "./assets/fonts/InterVariable-Italic.ttf",
+            "./assets/fonts/Nunito-VariableFont_wght.ttf",
+            "./assets/fonts/Nunito-Italic-VariableFont_wght.ttf"
           ]
         }
       ],

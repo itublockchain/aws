@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09FD8236B346444E88744D96 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4DAEED6C154C06844D5F3D /* Nunito-Italic-VariableFont_wght.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		44BDCF1ED9804DABB736E301 /* InterVariable-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A70E6B696E5F40D582753AA4 /* InterVariable-Italic.ttf */; };
 		5D48002B29787E0A3D79C0AA /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879B70912BB398CF5680CDC /* ExpoModulesProvider.swift */; };
 		9437B3FAE53A691583D6581B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6033D5062F9F61E86D3F9B07 /* PrivacyInfo.xcprivacy */; };
 		94F9AD1C6394A7505CB44BCA /* libPods-awsdemoapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65563C29E2AADC93EF66E3E3 /* libPods-awsdemoapp.a */; };
+		9E27083E4D32439CAA6FB423 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A357DD1F7A4CEEB6727FF9 /* Nunito-VariableFont_wght.ttf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		ED0EC3DF28B540C195AFEA6C /* InterVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67B52CE819B74B5BB5BE1412 /* InterVariable.ttf */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0879B70912BB398CF5680CDC /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-awsdemoapp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		0E4DAEED6C154C06844D5F3D /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* awsdemoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsdemoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = awsdemoapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = awsdemoapp/Info.plist; sourceTree = "<group>"; };
 		4A0DCDB884D91E66C77DC972 /* Pods-awsdemoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awsdemoapp.debug.xcconfig"; path = "Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp.debug.xcconfig"; sourceTree = "<group>"; };
 		6033D5062F9F61E86D3F9B07 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = awsdemoapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		65563C29E2AADC93EF66E3E3 /* libPods-awsdemoapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-awsdemoapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B52CE819B74B5BB5BE1412 /* InterVariable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = InterVariable.ttf; path = ../assets/fonts/InterVariable.ttf; sourceTree = "<group>"; };
+		A5A357DD1F7A4CEEB6727FF9 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-VariableFont_wght.ttf"; path = "../assets/fonts/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A70E6B696E5F40D582753AA4 /* InterVariable-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterVariable-Italic.ttf"; path = "../assets/fonts/InterVariable-Italic.ttf"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = awsdemoapp/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		E380FB365E611531431B1BC6 /* Pods-awsdemoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awsdemoapp.release.xcconfig"; path = "Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +66,18 @@
 			name = awsdemoapp;
 			sourceTree = "<group>";
 		};
+		279569EC59C64783A27DB3F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67B52CE819B74B5BB5BE1412 /* InterVariable.ttf */,
+				A70E6B696E5F40D582753AA4 /* InterVariable-Italic.ttf */,
+				A5A357DD1F7A4CEEB6727FF9 /* Nunito-VariableFont_wght.ttf */,
+				0E4DAEED6C154C06844D5F3D /* Nunito-Italic-VariableFont_wght.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +103,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				885E39F4D721EF6737C6866A /* Pods */,
 				B8C73846EC774015339C9A00 /* ExpoModulesProviders */,
+				279569EC59C64783A27DB3F5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -196,6 +217,10 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				9437B3FAE53A691583D6581B /* PrivacyInfo.xcprivacy in Resources */,
+				ED0EC3DF28B540C195AFEA6C /* InterVariable.ttf in Resources */,
+				44BDCF1ED9804DABB736E301 /* InterVariable-Italic.ttf in Resources */,
+				9E27083E4D32439CAA6FB423 /* Nunito-VariableFont_wght.ttf in Resources */,
+				09FD8236B346444E88744D96 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

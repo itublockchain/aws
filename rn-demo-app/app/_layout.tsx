@@ -16,12 +16,6 @@ export default function RootLayout() {
   const { sdk, wallets } = useDynamic();
 
   useEffect(() => {
-    console.log(
-      "SDK loaded:",
-      sdk.loaded,
-      "Wallet address:",
-      wallets.primary?.address
-    );
     if (sdk.loaded) {
       SplashScreen.hideAsync();
     }

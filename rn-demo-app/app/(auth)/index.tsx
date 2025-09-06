@@ -5,13 +5,14 @@ import { SafeAreaView } from "@/components/native";
 import GoogleAuthButton from "@/components/buttons/GoogleAuth";
 
 import { getWidth } from "@/constants/Spaces";
+import { Colors } from "@/constants/Colors";
 
 export default function Login() {
   return (
-    <SafeAreaView edges={["bottom", "top"]}>
+    <SafeAreaView edges={["bottom", "top"]} style={styles.container}>
       <View style={styles.image_container}>
         <Image
-          source={require("@/assets/images/icon.png")}
+          source={require("@/assets/images/splash-icon.png")}
           style={styles.image}
         />
       </View>
@@ -25,8 +26,7 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    backgroundColor: Colors.GREEN,
   },
   image_container: {
     flex: 1,

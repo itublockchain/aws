@@ -10,6 +10,8 @@ export const TextStyle = {
   family: {
     inter: "Inter",
     interItalic: "Inter-Italic",
+    nunito: "Nunito",
+    nunitoItalic: "Nunito-Italic",
   },
   weight: {
     Thin: 100,
@@ -35,6 +37,8 @@ export const DisplayStyle = {
   family: {
     inter: "Inter",
     interItalic: "Inter-Italic",
+    nunito: "Nunito",
+    nunitoItalic: "Nunito-Italic",
   },
   weight: {
     Thin: 100,

@@ -4,7 +4,6 @@ import * as Haptics from "expo-haptics";
 import LottieView from "lottie-react-native";
 import { Text } from "../native";
 import { Colors } from "@/constants/Colors";
-import Google from "@/assets/icons/Google";
 import { TextStyle } from "@/constants/Fonts";
 
 import { useDynamic } from "../../lib/clients/dynamic";
@@ -89,14 +88,13 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
   texts: {
-    fontSize: TextStyle.size.md,
+    fontSize: TextStyle.size.lg,
     fontWeight: TextStyle.weight.SemiBold,
-    color: Colors.LIGHT,
+    color: Colors.GREEN,
   },
   spinner: {
-    width: 20,
-    height: 20,
-    color: Colors.LIGHT,
+    width: 27,
+    height: 27,
   },
 });
 
