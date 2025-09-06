@@ -1,10 +1,44 @@
-import { View, Text } from "react-native";
-import { SafeAreaView } from "@/components/native";
+import { StyleSheet, View } from "react-native";
+import { Image } from "expo-image";
+
+import { SafeAreaView, Text } from "@/components/native";
+import GoogleAuthButton from "@/components/buttons/GoogleAuth";
+
+import { TextStyle } from "@/constants/Fonts";
+import { getWidth } from "@/constants/Spaces";
 
 export default function Login() {
   return (
-    <SafeAreaView>
-      <Text>Login</Text>
+    <SafeAreaView edges={["bottom", "top"]}>
+      <View style={styles.image_container}>
+        <Image
+          source={require("@/assets/images/icon.png")}
+          style={styles.image}
+        />
+      </View>
+      <View style={styles.button_container}>
+        <GoogleAuthButton />
+      </View>
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  image_container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  image: {
+    width: getWidth(160),
+    aspectRatio: 1,
+  },
+  button_container: {
+    paddingHorizontal: getWidth(16),
+  },
+});

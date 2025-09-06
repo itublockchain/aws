@@ -16,7 +16,7 @@ interface Props extends Omit<SafeAreaViewProps, "style"> {
 function SafeAreaView(props: Props) {
   const {
     style,
-    backgroundColor = Colors.WHITE,
+    backgroundColor = Colors.LIGHT,
     edges = ["top"],
     children,
     ...rest
