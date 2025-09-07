@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "types": ["node", "chai"]
+  },
+  "include": ["./scripts", "./test", "./hardhat.config.ts"],
+  "files": ["./hardhat.config.cjs"]
+}
+

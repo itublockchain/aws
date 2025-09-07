@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+artifacts/
+cache/
+coverage/
+coverage.json
+# Typechain
+typechain/
+# Builds
+build/
+dist/
+# Logs
+*.log
