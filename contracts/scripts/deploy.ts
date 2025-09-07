@@ -1,12 +1,12 @@
-import { ethers } from "hardhat";
+import hre from "hardhat";
 
 async function main(): Promise<void> {
-  const factory = await ethers.getContractFactory("SendReceive");
-  const contract = await factory.deploy();
-  await contract.waitForDeployment();
-
-  const address = await contract.getAddress();
-  console.log("SendReceive deployed to:", address);
+  const contract = await hre.viem.deployContract("SendReceive", [
+    // ENS registry, Reverse Registrar addresses should be provided here
+    process.env.ENS_REGISTRY_ADDRESS as `0x${string}`,
+    process.env.REVERSE_REGISTRAR_ADDRESS as `0x${string}`
+  ]);
+  console.log("SendReceive deployed to:", contract.address);
 }
 
 main().catch((error) => {

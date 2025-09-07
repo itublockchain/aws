@@ -13,7 +13,7 @@ interface IReverseRegistrar {
 	function node(address addr) external view returns (bytes32);
 }
 
-// Stores a mapping from a sha3-192 hash (bytes24) to wallet and public key,
+// Stores a mapping from a sha3-224 hash (bytes28) to wallet and public key,
 // and augments lookups with ENS reverse name resolution for the mapped wallet.
 contract SendReceive {
 	address public immutable owner;
@@ -26,9 +26,9 @@ contract SendReceive {
 	}
 
 	// hash (e.g., ENS/wallet composite) => entry
-	mapping(bytes24 => Entry) private records;
+	mapping(bytes28 => Entry) private records;
 
-	event MappingUpdated(bytes24 indexed key, address indexed wallet, bytes publicKey);
+	event MappingUpdated(bytes28 indexed key, address indexed wallet, bytes publicKey);
 
 	constructor(address _ensRegistry, address _reverseRegistrar) {
 		owner = msg.sender;
@@ -41,14 +41,14 @@ contract SendReceive {
 		_;
 	}
 
-	// Set or update the entry for a given sha3-192 hash
-	function setMapping(bytes24 key, address wallet, bytes calldata publicKey) external onlyOwner {
+	// Set or update the entry for a given sha3-224 hash
+	function setMapping(bytes28 key, address wallet, bytes calldata publicKey) external onlyOwner {
 		records[key] = Entry({wallet: wallet, publicKey: publicKey});
 		emit MappingUpdated(key, wallet, publicKey);
 	}
 
 	// Returns the stored wallet and public key, plus ENS reverse name for wallet if available
-	function getMapping(bytes24 key) external view returns (address wallet, bytes memory publicKey, string memory ensName) {
+	function getMapping(bytes28 key) external view returns (address wallet, bytes memory publicKey, string memory ensName) {
 		Entry storage e = records[key];
 		wallet = e.wallet;
 		publicKey = e.publicKey;

@@ -10,6 +10,6 @@
     "types": ["node", "chai"]
   },
   "include": ["./scripts", "./test", "./hardhat.config.ts"],
-  "files": ["./hardhat.config.ts"]
+  "files": ["./hardhat.config.cjs"]
 }
 
