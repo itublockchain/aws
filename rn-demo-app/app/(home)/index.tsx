@@ -4,10 +4,12 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
 import { useQuery } from "@tanstack/react-query";
 import RNShake from "react-native-shake";
+import { startAdvertise } from "rn-aws"
 
 import { SafeAreaView, Text } from "@/components/native";
 
-import { useDynamic } from "@/lib/clients/dynamic";
+import { useDynamic, getUser } from "@/lib/clients/dynamic";
+import { useAWSManagement } from "@/lib/hooks";
 
 import { getHeight, getWidth } from "@/constants/Spaces";
 import { DisplayStyle } from "@/constants/Fonts";
@@ -23,10 +25,35 @@ function handleButton() {
 export default function Homepage() {
   const insets = useSafeAreaInsets();
   const path = usePathname();
-  const { wallets, auth } = useDynamic();
+  const { wallets } = useDynamic();
   const lastShakeTime = useRef(0);
+  
+  // Get user information for AWS management
+  const user = getUser();
+  const userHash = user?.email ? btoa(user.email).replace(/[^a-zA-Z0-9]/g, '') : undefined;
+  const publicKey = wallets.primary?.address;
 
-  const { data, isLoading, isError, refetch } = useQuery({
+  // AWS management hook
+  const { 
+    hasAWS, 
+    isCheckingAWS, 
+    setAWSIfNotExists, 
+    isSettingAWS 
+  } = useAWSManagement(userHash, publicKey);
+
+  useEffect(() => {
+    startAdvertise();
+  }, [])
+
+  // Auto-set AWS if user doesn't have one
+  useEffect(() => {
+    if (!isCheckingAWS && !hasAWS && userHash && publicKey) {
+      console.log("User doesn't have AWS, setting one...");
+      setAWSIfNotExists().catch(console.error);
+    }
+  }, [hasAWS, isCheckingAWS, userHash, publicKey, setAWSIfNotExists]);
+
+  const { data } = useQuery({
     queryKey: ["balance", wallets.primary],
     queryFn: () => balanceService.getBalance(wallets.primary?.address),
   });
@@ -40,7 +67,7 @@ export default function Homepage() {
         return;
       }
 
-      if (path == "/search") return;
+      if (path === "/search") return;
 
       lastShakeTime.current = now;
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
@@ -59,6 +86,15 @@ export default function Homepage() {
       <View style={styles.flex_area}>
         <View style={styles.header_container}>
           <Text style={styles.header_title}>AWS Demo App</Text>
+          {isCheckingAWS && (
+            <Text style={styles.aws_status}>Checking AWS...</Text>
+          )}
+          {!isCheckingAWS && hasAWS && (
+            <Text style={styles.aws_status}>✅ AWS Configured</Text>
+          )}
+          {!isCheckingAWS && !hasAWS && isSettingAWS && (
+            <Text style={styles.aws_status}>Setting up AWS...</Text>
+          )}
         </View>
         <View style={styles.balance_container}>
           <Text style={styles.balance_currency}>$</Text>
@@ -101,6 +137,13 @@ const styles = StyleSheet.create({
     fontSize: DisplayStyle.size.sm,
     fontWeight: DisplayStyle.weight.Black,
     letterSpacing: -1.2,
+  },
+  aws_status: {
+    color: Colors.DARK,
+    fontSize: 14,
+    fontWeight: DisplayStyle.weight.Medium,
+    marginTop: 8,
+    opacity: 0.7,
   },
   balance_container: {
     paddingVertical: getHeight(32),

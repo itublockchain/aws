@@ -42,6 +42,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.6",
+    "react-native-ble-advertise": "^2.0.3",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-get-random-values": "^1.11.0",
     "react-native-reanimated": "~3.17.4",
@@ -51,6 +52,7 @@
     "react-native-svg": "15.11.2",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
+    "rn-aws": "file:../rn-aws",
     "text-encoding": "^0.7.0",
     "tslib": "^2.8.1",
     "viem": "^2.37.3"

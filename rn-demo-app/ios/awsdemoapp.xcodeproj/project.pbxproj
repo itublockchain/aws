@@ -7,37 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09FD8236B346444E88744D96 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4DAEED6C154C06844D5F3D /* Nunito-Italic-VariableFont_wght.ttf */; };
+		0F22008B243D6E4EBBADA388 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F02138C5C400DE9205179 /* ExpoModulesProvider.swift */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2E6B16D509D4A36DABBD14C2 /* Pods_awsdemoapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B37AAB7BB5F4928C205E10 /* Pods_awsdemoapp.framework */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		44BDCF1ED9804DABB736E301 /* InterVariable-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A70E6B696E5F40D582753AA4 /* InterVariable-Italic.ttf */; };
-		5D48002B29787E0A3D79C0AA /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879B70912BB398CF5680CDC /* ExpoModulesProvider.swift */; };
-		9437B3FAE53A691583D6581B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6033D5062F9F61E86D3F9B07 /* PrivacyInfo.xcprivacy */; };
-		94F9AD1C6394A7505CB44BCA /* libPods-awsdemoapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65563C29E2AADC93EF66E3E3 /* libPods-awsdemoapp.a */; };
-		9E27083E4D32439CAA6FB423 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A357DD1F7A4CEEB6727FF9 /* Nunito-VariableFont_wght.ttf */; };
+		431758DC5FBA483D941BC992 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B87438BCE2AA4446B09E2D54 /* Nunito-VariableFont_wght.ttf */; };
+		4C93F71A1CAC42189ABFD668 /* InterVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99F2284D0BC349CEA197049A /* InterVariable.ttf */; };
+		8AAA47199F0879FAA8224462 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8EE0D9D28755F2D73DC138C4 /* PrivacyInfo.xcprivacy */; };
+		B838CB2655D14C62B6BA8DE9 /* InterVariable-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E29C76A828E14032A058C033 /* InterVariable-Italic.ttf */; };
+		BAC20ACBD2D740BFAF255485 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F07A9A848334E3195AEAA5E /* Nunito-Italic-VariableFont_wght.ttf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		ED0EC3DF28B540C195AFEA6C /* InterVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67B52CE819B74B5BB5BE1412 /* InterVariable.ttf */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0879B70912BB398CF5680CDC /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-awsdemoapp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		0E4DAEED6C154C06844D5F3D /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		102F02138C5C400DE9205179 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-awsdemoapp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* awsdemoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsdemoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = awsdemoapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = awsdemoapp/Info.plist; sourceTree = "<group>"; };
-		4A0DCDB884D91E66C77DC972 /* Pods-awsdemoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awsdemoapp.debug.xcconfig"; path = "Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp.debug.xcconfig"; sourceTree = "<group>"; };
-		6033D5062F9F61E86D3F9B07 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = awsdemoapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		65563C29E2AADC93EF66E3E3 /* libPods-awsdemoapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-awsdemoapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67B52CE819B74B5BB5BE1412 /* InterVariable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = InterVariable.ttf; path = ../assets/fonts/InterVariable.ttf; sourceTree = "<group>"; };
-		A5A357DD1F7A4CEEB6727FF9 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-VariableFont_wght.ttf"; path = "../assets/fonts/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		A70E6B696E5F40D582753AA4 /* InterVariable-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterVariable-Italic.ttf"; path = "../assets/fonts/InterVariable-Italic.ttf"; sourceTree = "<group>"; };
+		1F07A9A848334E3195AEAA5E /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		24B37AAB7BB5F4928C205E10 /* Pods_awsdemoapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_awsdemoapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3331E5062E6D4FC000F04DB2 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		8EE0D9D28755F2D73DC138C4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = awsdemoapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		99F2284D0BC349CEA197049A /* InterVariable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = InterVariable.ttf; path = ../assets/fonts/InterVariable.ttf; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = awsdemoapp/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B87438BCE2AA4446B09E2D54 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-VariableFont_wght.ttf"; path = "../assets/fonts/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		E380FB365E611531431B1BC6 /* Pods-awsdemoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awsdemoapp.release.xcconfig"; path = "Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp.release.xcconfig"; sourceTree = "<group>"; };
+		E29C76A828E14032A058C033 /* InterVariable-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "InterVariable-Italic.ttf"; path = "../assets/fonts/InterVariable-Italic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F01A94C0FC7BBD40E27571A0 /* Pods-awsdemoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awsdemoapp.release.xcconfig"; path = "Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp.release.xcconfig"; sourceTree = "<group>"; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = awsdemoapp/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* awsdemoapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "awsdemoapp-Bridging-Header.h"; path = "awsdemoapp/awsdemoapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F28958B6B11EAEAE32E8B45D /* Pods-awsdemoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awsdemoapp.debug.xcconfig"; path = "Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F9AD1C6394A7505CB44BCA /* libPods-awsdemoapp.a in Frameworks */,
+				2E6B16D509D4A36DABBD14C2 /* Pods_awsdemoapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,30 +62,45 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				6033D5062F9F61E86D3F9B07 /* PrivacyInfo.xcprivacy */,
+				8EE0D9D28755F2D73DC138C4 /* PrivacyInfo.xcprivacy */,
 			);
 			name = awsdemoapp;
 			sourceTree = "<group>";
 		};
-		279569EC59C64783A27DB3F5 /* Resources */ = {
+		14BE62D669B667A63A201866 /* awsdemoapp */ = {
 			isa = PBXGroup;
 			children = (
-				67B52CE819B74B5BB5BE1412 /* InterVariable.ttf */,
-				A70E6B696E5F40D582753AA4 /* InterVariable-Italic.ttf */,
-				A5A357DD1F7A4CEEB6727FF9 /* Nunito-VariableFont_wght.ttf */,
-				0E4DAEED6C154C06844D5F3D /* Nunito-Italic-VariableFont_wght.ttf */,
+				102F02138C5C400DE9205179 /* ExpoModulesProvider.swift */,
 			);
-			name = Resources;
-			path = "";
+			name = awsdemoapp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				65563C29E2AADC93EF66E3E3 /* libPods-awsdemoapp.a */,
+				24B37AAB7BB5F4928C205E10 /* Pods_awsdemoapp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4028CAD87B534FA9AAF00852 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99F2284D0BC349CEA197049A /* InterVariable.ttf */,
+				E29C76A828E14032A058C033 /* InterVariable-Italic.ttf */,
+				B87438BCE2AA4446B09E2D54 /* Nunito-VariableFont_wght.ttf */,
+				1F07A9A848334E3195AEAA5E /* Nunito-Italic-VariableFont_wght.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B2A0B1D9BA8948BBDE37F64 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				14BE62D669B667A63A201866 /* awsdemoapp */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -97,13 +113,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3331E5062E6D4FC000F04DB2 /* Dummy.swift */,
 				13B07FAE1A68108700A75B9A /* awsdemoapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				885E39F4D721EF6737C6866A /* Pods */,
-				B8C73846EC774015339C9A00 /* ExpoModulesProviders */,
-				279569EC59C64783A27DB3F5 /* Resources */,
+				4028CAD87B534FA9AAF00852 /* Resources */,
+				9F307E6964FA49F141BDEEF8 /* Pods */,
+				6B2A0B1D9BA8948BBDE37F64 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,21 +135,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		885E39F4D721EF6737C6866A /* Pods */ = {
+		9F307E6964FA49F141BDEEF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A0DCDB884D91E66C77DC972 /* Pods-awsdemoapp.debug.xcconfig */,
-				E380FB365E611531431B1BC6 /* Pods-awsdemoapp.release.xcconfig */,
+				F28958B6B11EAEAE32E8B45D /* Pods-awsdemoapp.debug.xcconfig */,
+				F01A94C0FC7BBD40E27571A0 /* Pods-awsdemoapp.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B8C73846EC774015339C9A00 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				E804FE8F7ABDBF31BCD34363 /* awsdemoapp */,
-			);
-			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -144,14 +153,6 @@
 			path = awsdemoapp/Supporting;
 			sourceTree = "<group>";
 		};
-		E804FE8F7ABDBF31BCD34363 /* awsdemoapp */ = {
-			isa = PBXGroup;
-			children = (
-				0879B70912BB398CF5680CDC /* ExpoModulesProvider.swift */,
-			);
-			name = awsdemoapp;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,13 +161,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "awsdemoapp" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				F9106BB25560288DAB4612A4 /* [Expo] Configure project */,
+				CB40393842F78477DB14A83A /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				6E9AEDE9D648BF3E0DE203AD /* [CP] Embed Pods Frameworks */,
+				8F123E5A64CB6963B0F049F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,11 +217,11 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				9437B3FAE53A691583D6581B /* PrivacyInfo.xcprivacy in Resources */,
-				ED0EC3DF28B540C195AFEA6C /* InterVariable.ttf in Resources */,
-				44BDCF1ED9804DABB736E301 /* InterVariable-Italic.ttf in Resources */,
-				9E27083E4D32439CAA6FB423 /* Nunito-VariableFont_wght.ttf in Resources */,
-				09FD8236B346444E88744D96 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
+				4C93F71A1CAC42189ABFD668 /* InterVariable.ttf in Resources */,
+				B838CB2655D14C62B6BA8DE9 /* InterVariable-Italic.ttf in Resources */,
+				431758DC5FBA483D941BC992 /* Nunito-VariableFont_wght.ttf in Resources */,
+				BAC20ACBD2D740BFAF255485 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
+				8AAA47199F0879FAA8224462 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,24 +263,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E9AEDE9D648BF3E0DE203AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
@@ -324,7 +307,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9106BB25560288DAB4612A4 /* [Expo] Configure project */ = {
+		8F123E5A64CB6963B0F049F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awsdemoapp/Pods-awsdemoapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB40393842F78477DB14A83A /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -351,7 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				5D48002B29787E0A3D79C0AA /* ExpoModulesProvider.swift in Sources */,
+				0F22008B243D6E4EBBADA388 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +361,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0DCDB884D91E66C77DC972 /* Pods-awsdemoapp.debug.xcconfig */;
+			baseConfigurationReference = F28958B6B11EAEAE32E8B45D /* Pods-awsdemoapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -386,7 +387,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feyyum.awsdemoapp;
-				PRODUCT_NAME = awsdemoapp;
+				PRODUCT_NAME = "awsdemoapp";
 				SWIFT_OBJC_BRIDGING_HEADER = "awsdemoapp/awsdemoapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -397,7 +398,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E380FB365E611531431B1BC6 /* Pods-awsdemoapp.release.xcconfig */;
+			baseConfigurationReference = F01A94C0FC7BBD40E27571A0 /* Pods-awsdemoapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -418,7 +419,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feyyum.awsdemoapp;
-				PRODUCT_NAME = awsdemoapp;
+				PRODUCT_NAME = "awsdemoapp";
 				SWIFT_OBJC_BRIDGING_HEADER = "awsdemoapp/awsdemoapp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,6 +474,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -481,10 +493,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -532,6 +541,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -539,10 +559,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
