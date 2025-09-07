@@ -5,6 +5,30 @@ export const Colors = {
   DARK: "#2C2C2C",
   WHITE: "#FFFFFF",
   BLACK: "#000000",
+
+  GRAY_900: "#101828",
+  GRAY_800: "#1D2939",
+  GRAY_700: "#344054",
+  GRAY_600: "#475467",
+  GRAY_500: "#667085",
+  GRAY_400: "#98A2B3",
+  GRAY_300: "#D0D5DD",
+  GRAY_200: "#EAECF0",
+  GRAY_100: "#F4F6F9",
+  GRAY_50: "#F9FAFB",
+  GRAY_25: "#FCFCFD",
+
+  ERROR_900: "#601A0F",
+  ERROR_800: "#912018",
+  ERROR_700: "#B42318",
+  ERROR_600: "#D92D20",
+  ERROR_500: "#F04438",
+  ERROR_400: "#F97066",
+  ERROR_300: "#FDA29B",
+  ERROR_200: "#FECDCA",
+  ERROR_100: "#FEE4E2",
+  ERROR_50: "#FEF3F2",
+  ERROR_25: "#FFFBFA",
 } as const;
 
 export const SkeletonColors = {

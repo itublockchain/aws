@@ -11,9 +11,11 @@ import { getHeight, getWidth } from "@/constants/Spaces";
 import { DisplayStyle } from "@/constants/Fonts";
 import { Colors } from "@/constants/Colors";
 import { balanceService } from "@/lib/api";
+import { router } from "expo-router";
 
 function handleButton() {
   Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+  router.push("./send");
 }
 
 export default function Homepage() {
