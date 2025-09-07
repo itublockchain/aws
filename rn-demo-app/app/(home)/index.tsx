@@ -1,7 +1,9 @@
+import { useEffect, useRef } from "react";
 import { Pressable, StyleSheet, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
 import { useQuery } from "@tanstack/react-query";
+import RNShake from "react-native-shake";
 
 import { SafeAreaView, Text } from "@/components/native";
 
@@ -11,7 +13,7 @@ import { getHeight, getWidth } from "@/constants/Spaces";
 import { DisplayStyle } from "@/constants/Fonts";
 import { Colors } from "@/constants/Colors";
 import { balanceService } from "@/lib/api";
-import { router } from "expo-router";
+import { router, usePathname } from "expo-router";
 
 function handleButton() {
   Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -20,16 +22,37 @@ function handleButton() {
 
 export default function Homepage() {
   const insets = useSafeAreaInsets();
+  const path = usePathname();
   const { wallets, auth } = useDynamic();
+  const lastShakeTime = useRef(0);
 
   const { data, isLoading, isError, refetch } = useQuery({
     queryKey: ["balance", wallets.primary],
     queryFn: () => balanceService.getBalance(wallets.primary?.address),
   });
 
-  // auth.logout();
+  useEffect(() => {
+    const subscription = RNShake.addListener(() => {
+      const now = Date.now();
 
-  console.log("Balance data:", data, isLoading, isError);
+      if (now - lastShakeTime.current < 2000) {
+        console.log("Shake too frequent, ignoring");
+        return;
+      }
+
+      if (path == "/search") return;
+
+      lastShakeTime.current = now;
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      router.push("./search");
+    });
+
+    return () => {
+      subscription.remove();
+    };
+  }, [path]);
+
+  // auth.logout();
 
   return (
     <SafeAreaView style={styles.container}>
